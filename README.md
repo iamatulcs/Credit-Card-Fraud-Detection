@@ -23,19 +23,23 @@ This project covers the complete machine learning workflow, including:
 
 ## 📊 Dataset
 
-The dataset contains credit card transactions with anonymized features.
+The project uses the Credit Card Fraud Detection dataset containing transactions made by European cardholders.
+
+The dataset contains:
 
 - **284,807 transactions**
 - **31 columns**
 - **30 input features**
 - **1 target variable (`Class`)**
+
+The target variable is highly imbalanced:
+
 - `Class = 0` → Legitimate transaction
 - `Class = 1` → Fraudulent transaction
 
-The dataset is highly imbalanced, with fraudulent transactions representing approximately **0.17%** of the original transactions.
+The dataset is **not included in this repository** because of its file size.
 
-The dataset is not included in this repository.
-
+To reproduce the project, download the dataset separately and place the CSV file in the location specified in the notebook.
 ## 🔍 Exploratory Data Analysis
 
 ### Transaction Class Distribution

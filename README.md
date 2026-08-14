@@ -39,7 +39,13 @@ The target variable is highly imbalanced:
 
 The dataset is **not included in this repository** because of its file size.
 
-To reproduce the project, download the dataset separately and place the CSV file in the location specified in the notebook.
+### Dataset Download
+
+Download the dataset from Kaggle:
+
+[Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+After downloading, place `creditcard.csv` in the same folder as the notebook before running the project.
 ## 🔍 Exploratory Data Analysis
 
 ### Transaction Class Distribution
